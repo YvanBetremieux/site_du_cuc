@@ -799,6 +799,30 @@
     min-height: 305px;
   }
 
+  .u-section-3 .u-layout-cell-3 {
+    min-height: 307px;
+  }
+
+  .u-section-3 .u-container-layout-3 {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  .u-section-3 .u-text-3 {
+    width: auto;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+  .u-section-3 .u-text-4 {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+  .u-section-3 .u-btn-2 {
+    margin-left: 1px;
+  }
+
   .u-section-3 .u-layout-cell-4 {
     min-height: 341px;
   }
@@ -955,7 +979,6 @@
   grid-template-columns: calc(20% - 14.4px) calc(20% - 14.4px) calc(20% - 14.4px) calc(20% - 14.4px) calc(20% - 14.4px);
   min-height: 469px;
   grid-gap: 18px 18px;
-  grid-auto-columns: calc(20% - 14.4px);
 }
 
 .u-section-5 .u-list-item-1 {
@@ -1160,7 +1183,6 @@
   }
 
   .u-section-5 .u-repeater-1 {
-    grid-template-columns: repeat(5, calc(20% - 14.4px));
     min-height: 385px;
   }
 }
@@ -1171,9 +1193,8 @@
   }
 
   .u-section-5 .u-repeater-1 {
-    grid-template-columns: repeat(3, calc(33.333333333333336% - 12px));
+    grid-template-columns: calc(33.3333% - 12px) calc(33.3333% - 12px) calc(33.3333% - 12px);
     min-height: 1018px;
-    grid-auto-columns: calc(33.333333333333336% - 12px);
   }
 
   .u-section-5 .u-container-layout-1 {
@@ -1227,9 +1248,8 @@
   }
 
   .u-section-5 .u-repeater-1 {
-    grid-template-columns: repeat(2, calc(50% - 9px));
+    grid-template-columns: calc(50% - 9px) calc(50% - 9px);
     min-height: 1451px;
-    grid-auto-columns: calc(50% - 9px);
   }
 
   .u-section-5 .u-container-layout-1 {
@@ -1294,7 +1314,6 @@
 
   .u-section-5 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: calc(100% - 0px);
   }
 } .u-section-6 {
   background-image: none;
@@ -1341,10 +1360,6 @@
 
 .u-block-5bfe-25 {
   border-style: dotted;
-}
-
-.u-section-6 .u-table-entity-1 {
-  height: 230px;
 }
 
 .u-section-6 .u-table-header-1 {
@@ -1616,10 +1631,6 @@
 
 .u-block-61ea-25 {
   border-style: dotted;
-}
-
-.u-section-7 .u-table-entity-1 {
-  height: 230px;
 }
 
 .u-section-7 .u-table-header-1 {
